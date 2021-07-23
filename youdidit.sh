@@ -1,6 +1,6 @@
-if ! (locate mpg123) || ! (locate youtube-dl) || ! (locate ffmpeg) || ! [ -f "bezos.mp3"]; then
-    ./install.sh
-fi
+# if ! (locate mpg123) || ! [`youtube-dl; echo $?` -eq 2] || ! (locate ffmpeg) || ! [ -f "bezos.mp3"]; then
+#     sudo ./install.sh
+# fi
 
 if docker ps | grep pihole; then
     # Pihole is running in a container
