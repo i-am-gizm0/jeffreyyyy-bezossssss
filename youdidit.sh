@@ -18,5 +18,6 @@ exec "$GET_LOGS_CMD" | (
     while read -r line; do
         # Play
         mpg123 bezos.mp3 &
+        # Consider swapping out the mpg123 call for a cURL request to trigger the song playing on your smart speaker
     done
 )
