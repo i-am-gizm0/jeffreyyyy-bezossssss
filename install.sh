@@ -9,4 +9,4 @@ echo Installing FFmpeg
 apt install ffmpeg -y
 
 echo Getting audio from youtube
-youtube-dl -x --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch?v=7_EeCkHs-e0 -o bezos.mp3
+youtube-dl -x --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch?v=ebkAM2_zsEk -o "bezos.%(ext)s"
