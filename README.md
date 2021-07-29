@@ -15,3 +15,10 @@ Once you have them, run `youdidit.sh` and enjoy.
 
 # What do I need to do it?
 Right now you need a Linux machine with audio out, though this can be as simple as a Raspberry Pi. You also need Pi-hole running and a way to access its request log from the computer you'll be running this on. Take a look at the code to see how it's done right now and feel free to adapt to your own use if this doesn't work for you (if appropriate, feel free to open a PR).
+
+# Why can't I do it?
+> I don't know. I'm not a Linux guy.
+
+*- GitHub Copilot*  
+  
+I don't know much about Bash so there's a number of things that I want it to do but that just don't work at the moment. Check the Issues to see if you can help fix any of them.
